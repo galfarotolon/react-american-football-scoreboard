@@ -15,6 +15,7 @@ function App() {
   const [homeScore, setHomeScore] = useState(0);
   const [awayScore, setAwayScore] = useState(0);
 
+
   function addHomeScore() {
     setHomeScore(homeScore + 7)
   }
@@ -30,6 +31,7 @@ function App() {
   function addAwayField() {
     setAwayScore(awayScore + 3)
   }
+
 
 
 
